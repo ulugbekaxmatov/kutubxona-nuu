@@ -1,0 +1,176 @@
+.header_div
+{
+    width: 100% !important;
+    height: 70px;
+    background-color: #26A9E0;
+    position: fixed;
+    /* border: 2px solid red !important; */
+}
+.login2
+{
+    height: 86%;
+    width: 10%;
+    margin-top: 4px;
+    margin-left: 50%;
+    margin-right: 50%;
+    float: left;
+}
+.fon_rasm
+{
+    width: 95%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+.forma
+{
+    height: 100%;
+    float: right;
+}
+.kiritish
+{
+    height: 86%;
+    margin-top: 4px;
+    float: right;
+}
+.stranitsi_td
+{
+    padding-right: 70px; 
+}
+.stranitsi_a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.stranitsi_p
+{
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+.stranitsi_p :hover
+{
+    color:rgb(116, 7, 7);
+}
+.stranitsi_a :active
+{
+    color: rgb(116, 7, 7);
+}
+.body_div
+{
+    padding: 10px;
+    padding-top: 80px !important;
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+}
+.table
+{
+    border: 2px solid grey;
+}
+.tabletr
+{
+    border: 2px solid blueviolet !important;
+}
+.table_tr
+{
+    height: 80px !important;
+}
+.tdScroll
+{
+    overflow:scroll;
+    width: 280px;
+    height: 70px;
+}
+.tdScroll2
+{
+    overflow:scroll;
+    width: 170px;
+    height: 140px;
+}
+.image_td
+{
+    width: 90px;
+    height: 140px;
+}
+.h1knigi
+{
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.dobavit_a
+{
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.chap_div
+{
+    float: left;
+    width: 60%;
+    /* height: 600px; */
+    /* border: 2px solid blue; */
+}
+.input_div
+{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 17px;
+    /* border: 2px solid red; */
+}
+
+.opisaniya_div
+{
+    float: right;
+    /* border: 2px solid red; */
+    width: 39%;
+    padding-left: 35px;
+    /* height: 600px; */
+}
+.input_class
+{
+    /* margin-right: 500px; */
+    width: 550px;
+    height: 40px;
+    float: right;
+}
+.text_class
+{
+    float: left;
+    margin-top: 5px;
+}
+.dobavit_h1
+{
+    font-family:cursive;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.textarea_class
+{
+    width: 90%;
+    height: 400px;
+    resize: none;
+    margin-bottom: 100px;
+}
+.textarea_class_aksiya
+{
+    resize: none;
+    margin-bottom: 100px;
+    width: 70%;
+    height: 300px;
+}
+.button_otpravit1
+{
+    margin-left: 27%;
+    width: 200px;
+    height: 60px;
+}
+.image_td_aksiya
+{
+    width: 300px;
+    height: 150px;
+}

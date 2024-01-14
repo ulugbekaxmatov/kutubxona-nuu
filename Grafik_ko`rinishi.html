@@ -1,0 +1,180 @@
+<html lang="en"><head>
+    <title>Grafik ko`rinishi</title>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../images/favicon/site.webmanifest">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- fontawesome.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- main css file -->
+    <link rel="stylesheet" href="https://lib.samtuit.uz/css/style.css">
+    <style>
+        #main .chart-box{
+                height: 600px;
+            }
+    </style>
+</head>
+<body data-aos-easing="ease-in-out-sine" data-aos-duration="400" data-aos-delay="0">
+
+<!-- TOP BUTTON -->
+    <a href="#chart-main" class="top-button d-flex align-items-center justify-content-center">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+
+<!-- NAVBAR SECTION -->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+               <a href="https://lib.samtuit.uz/index.php">
+                <div class="logo d-flex align-items-center">
+                    <img src="https://milliy.netlify.app/img/nuu-logo.png"  alt="">
+                    <p class="text-uppercase mb-0 ms-3">O'zbekiston Milliy Universiteti <br>Amaliy matematika va Intellektual <br> texnologiyalar fakulteti</p>
+                </div>
+               </a>
+                <ul class="links">
+                    <li><a href="https://lib.samtuit.uz/index.php">Bosh sahifa</a></li>
+                    <li><a href="file:///C:/HTML%20DASTURI/1-dars/img/Yangiliklar.html">Yangiliklar</a></li>
+                    <li><a href="file:///C:/HTML%20DASTURI/1-dars/img/Kitoblar.html" class="">Kitoblar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<!-- MAIN SECTION -->
+    <div id="chart-main" class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="h1 text-center py-5 mb-0 fs-4">Oxirigi 30 kunlik statistika</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="chart-box pb-5">
+                    <canvas id="canvas" class="h-100 w-100" width="696" height="348" style="display: block; box-sizing: border-box; height: 348px; width: 696px;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER SECTION -->
+    <footer id="footer">
+        <div class="container py-3 py-lg-5">
+            <div class="row py-3 py-lg-4">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>nuu.uz library</h3>
+                    <p>Toshkent shaxar <br> Universitet Ko'chasi, Тоshkent 100174</p>
+                    <p class="mb-0"><b>Telefon:</b> +998 91 010 07 51</p>
+                    <p><b>Email:</b> nuu.uz@gmail.com</p>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>ARM haqida</h3>
+                    <ul>
+                        <li>
+                            <a href="http://samtuit.uz/uz/page/leadership-11-08-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                raxbariyat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://samtuit.uz/uz/page/arm-30-09-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                ARM tuzilishi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://samtuit.uz/uz/page/university-regulations-11-08-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                Universitet nizomi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vacancy.argos.uz/vacancies/vacancy-list" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                bo'sh ish o'rinlari
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>Me'yoriy-huquqiy hujjatlar</h3>
+                    <ul>
+                        <li>
+                            <a href="https://lex.uz/search/all?form_id=3968">
+                                <i class="fas fa-angle-right"></i>
+                                O'zbekiston Respublikasi qonunlari
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://lex.uz/uz/search/all?form_id=3972&amp;fbody_id=19123">
+                                <i class="fas fa-angle-right"></i>
+                                O'zbekisron Respublikasi prizidentining qarorlari
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://e-qaror.gov.uz/oz/site/list?DocumentSearch%5Bcategory_id%5D=6">
+                                <i class="fas fa-angle-right"></i>
+                                OTM tomonidan qabul qilingan normativ-huquqiy hujjatlar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>Ijtimoiy tarmoqlarda</h3>
+                    <p>Bizni ijtimoiy tarmoqlar orqali ham kuzatib boring:</p>
+                    <div class="foot-icons d-flex">
+                        <div class="foot-icons d-flex">
+                            <div class="icon">
+                                <a href="https://t.me/milliy_universitut"><i class="fab fa-telegram"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.facebook.com/nationaluniversityuzbekistan/"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.instagram.com/nuu.uz"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.youtube.com/c/NationalUniversityofUzbekistan"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <p class="author text-center w-100 py-3 py-lg-4 mb-0">
+            <a href="#">© Copyright
+                <script>document.write(new Date().getFullYear());</script>2023, Toshtemirov M, Kamolov D
+            </a>
+        </p>
+    </footer>
+
+<!-- js files -->
+    <script src="https://lib.samtuit.uz/js/bootstrap.bundle.min.js"></script>
+    <script src="https://lib.samtuit.uz/js/monitoring.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script src="https://lib.samtuit.uz/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://lib.samtuit.uz/js/index.js"></script>
+    <script src="https://lib.samtuit.uz/js/monitoring.js"></script>
+
+</body></html>

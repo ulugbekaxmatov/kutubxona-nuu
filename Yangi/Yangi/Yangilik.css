@@ -1,0 +1,50 @@
+/* Yangilik.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+a.a-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #4285f4;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+table, th, td {
+  border: 1px solid #dddddd;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #4285f4;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
